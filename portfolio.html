@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./CSS/normalize.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
     <link rel="stylesheet" href="./CSS/styles.css" />
+    <style>
+      li {
+        list-style-type: none;
+      }
+    </style>
   </head>
 
   <body>
@@ -41,115 +50,144 @@
     </header>
     <main>
       <!--КНОПКИ НАВИГАЦИИ ПО ПОРТФОЛИО-->
-      <section>
-        <ul class="portfolio-navigation">
-          <button class="portfolio-navigation-menu">Все</button>
-          <button class="portfolio-navigation-menu">Веб-сайты</button>
-          <button class="portfolio-navigation-menu">Приложения</button>
-          <button class="portfolio-navigation-menu">Дизайн</button>
-          <button class="portfolio-navigation-menu">Маркетинг</button>
-        </ul>
-      </section>
+
+      <ul class="portfolio-navigation">
+        <li>
+          <button type="button" class="portfolio-navigation-menu">Все</button>
+        </li>
+        <li>
+          <button type="button" class="portfolio-navigation-menu">
+            Веб-сайты
+          </button>
+        </li>
+        <li>
+          <button type="button" class="portfolio-navigation-menu">
+            Приложения
+          </button>
+        </li>
+        <li>
+          <button type="button" class="portfolio-navigation-menu">
+            Дизайн
+          </button>
+        </li>
+        <li>
+          <button type="button" class="portfolio-navigation-menu">
+            Маркетинг
+          </button>
+        </li>
+      </ul>
+
       <!--ПРОЕКТЫ-->
       <section>
-        <ul>
-          <li>
-            <img
-              src="./Images/Portfolio/First picture.jpg"
-              alt="Дизайн Веб-сайта"
-              width="370"
-              height="294"
-            />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
-            <p>
+        <ul class="Projects-list">
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/First-picture.jpg"
+                alt="Дизайн Веб-сайта"
+                width="370"
+                height="294"
+            /></a>
+            <h2 class="Title">Технокряк</h2>
+            <p class="Projects-list-link-name">Веб-сайт</p>
+            <p class="Projects-list-link-info">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p>
           </li>
-          <li>
-            <a
-              href=""
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
               <img
-              src="./Images/Portfolio/Golden Star.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+                src="./Images/Portfolio/Golden-Star.jpg"
+                alt=""
+                width="370"
+                height="294"
+            /></a>
+            <h2 class="Title">Постер New Orlean vs Golden Star</h2>
+            <p class="Projects-list-link-name">Дизайн</p>
+          </li>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/SeaFood-Restrant.jpg"
+                alt=""
+                width="370"
+                height="294"
+              />
             </a>
+            <h2 class="Title">Ресторан Seafood</h2>
+            <p class="Projects-list-link-name">Приложение</p>
           </li>
-          <li>
-            <img
-              src="./Images/Portfolio/SeaFood Restrant.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Ресторан Seafood</h3>
-            <p>Приложение</p>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/Ears.jpg"
+                alt=""
+                width="370"
+                height="294"
+            /></a>
+            <h2 class="Title">Проект Prime</h2>
+            <p class="Projects-list-link-name">Маркетинг</p>
           </li>
-          <li>
-            <img
-              src="./Images/Portfolio/Ears.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Проект Prime</h3>
-            <p>Маркетинг</p>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/Boxes.jpg"
+                alt=""
+                width="370"
+                height="294"
+            /></a>
+            <h2 class="Title">Проект Boxes</h2>
+            <p class="Projects-list-link-name">Приложение</p>
           </li>
-          <li>
-            <img
-              src="./Images/Portfolio/Boxes.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Проект Boxes</h3>
-            <p>Приложение</p>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/PC.jpg"
+                alt=""
+                width="370"
+                height="294"
+              />
+            </a>
+            <h2 class="Title">Inspiration has no Borders</h2>
+            <p class="Projects-list-link-name">Веб-сайт</p>
           </li>
-          <li>
-            <img
-              src="./Images/Portfolio/PC.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/Magazine.jpg"
+                alt=""
+                width="370"
+                height="294"
+              />
+            </a>
+            <h2 class="Title">Издание Limited Edition</h2>
+            <p class="Projects-list-link-name">Дизайн</p>
           </li>
-          <li>
-            <img
-              src="./Images/Portfolio/Magazine.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Издание Limited Edition</h3>
-            <p>Дизайн</p>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/LAB.jpg"
+                alt=""
+                width="370"
+                height="294"
+              />
+            </a>
+            <h2 class="Title">Проект LAB</h2>
+            <p class="Projects-list-link-name">Маркетинг</p>
           </li>
-          <li>
-            <img
-              src="./Images/Portfolio/LAB.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Проект LAB</h3>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./Images/Portfolio/Growing.jpg"
-              alt=""
-              width="370"
-              height="294"
-            />
-            <h3>Growing Business</h3>
-            <p>Приложение</p>
+          <li class="Projects-list-item">
+            <a class="Projects-list-link" href="">
+              <img
+                src="./Images/Portfolio/Growing.jpg"
+                alt=""
+                width="370"
+                height="294"
+              />
+            </a>
+            <h2 class="Title">Growing Business</h2>
+            <p class="Projects-list-link-name">Приложение</p>
           </li>
         </ul>
       </section>
@@ -161,28 +199,37 @@
             <img src="./Images/Logo/WebStudio.png" alt="Логотип" />
           </a>
         </span>
-        <ul>
-          <li>
+        <ul class="Contacts-footer">
+          <li class="Contacts-footer-list">
             <address>
-              <a href="https://goo.gl/maps/ohNwmJK8hDvbEnQ19" target="_blank"
+              <a
+                class="Contacts-footer-list-link"
+                href="https://goo.gl/maps/ohNwmJK8hDvbEnQ19"
+                target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </address>
           </li>
           <li>
             <address>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a
+                class="Contacts-footer-list-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </address>
           </li>
           <li>
             <address>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="Contacts-footer-list-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </address>
           </li>
         </ul>
       </div>
       <div>
-        <b>Присоединяйтесь</b>
+        <p class="Contact-wiht-us">Присоединяйтесь</p>
         <ul class="logo-list">
           <li class="logo-items">
             <a class="logo-link" href="" lang="en">

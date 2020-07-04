@@ -1,46 +1,3 @@
-.navigation-list .navigation-list-link {
-  color: #212121;
-}
-.navigation-list .navigation-list-link:hover {
-  color: #2196f3;
-}
-.navigation-list-link:focus {
-  color: #2196f3;
-}
-.contacts-list .contacts-list-link {
-  color: #757575;
-}
-.contacts-list .contacts-list-link:hover {
-  color: #2196f3;
-}
-.contacts-list .contacts-list-link:focus {
-  color: #2196f3;
-}
-.portfolio-navigation .portfolio-navigation-menu {
-  color: #212121;
-  background-color: #f5f4fa;
-}
-.portfolio-navigation .portfolio-navigation-menu:hover {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.portfolio-navigation .portfolio-navigation-menu:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
-.logo-list .logo-link {
-  color: #ffffff;
-  background-color: #2f303a;
-}
-.logo-list .logo-link:hover {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.logo-list .logo-link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
 :root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
@@ -50,4 +7,205 @@
   --secondary-white-color: #f5f4fa;
   --main-black-color: #000000;
   --footer-links-color: rgba (255, 255, 255, 0.6);
+}
+/* Страница Студия */
+.Hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--primary-white-color);
+}
+.BTN-order {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* Страница Студия -- О НАС */
+.aboutUs-advantages-discription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-title-color);
+}
+
+.aboutUs-advantages-discription-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+.business {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-title-color);
+}
+.business-list-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-white-color);
+}
+.Team,
+.Clients {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-title-color);
+}
+.Team-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-title-color);
+}
+
+.Team-list-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.Contact-wiht-us {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-white-color);
+  background-color: var(--footer-background-color);
+}
+/* Страница Портфолио */
+.navigation-list .navigation-list-link,
+.contacts-list-link,
+.portfolio-navigation .portfolio-navigation-menu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-title-color);
+}
+.navigation-list .navigation-list-link:hover,
+.contacts-list .contacts-list-link:hover {
+  color: var(--accent-color);
+}
+.navigation-list-link:focus,
+.contacts-list .contacts-list-link:focus {
+  color: var(--accent-color);
+}
+.contacts-list .contacts-list-link {
+  color: var(--primary-text-color);
+}
+
+.portfolio-navigation .portfolio-navigation-menu {
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--primary-title-color);
+  background-color: var(--secondary-white-color);
+}
+.portfolio-navigation .portfolio-navigation-menu:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-navigation .portfolio-navigation-menu:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.Title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+.Projects-list .Projects-list-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-title-color);
+}
+.Projects-list .Projects-list-link-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+.Projects-list-link-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.Projects-list-link-info:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.Projects-list-link-info:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.Contacts-footer .Contacts-footer-list-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  background-color: var(--footer-background-color);
+}
+
+.logo-list .logo-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--footer-background-color);
+}
+.logo-list .logo-link:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.logo-list .logo-link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
