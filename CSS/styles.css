@@ -1,0 +1,53 @@
+.navigation-list .navigation-list-link {
+  color: #212121;
+}
+.navigation-list .navigation-list-link:hover {
+  color: #2196f3;
+}
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+.contacts-list .contacts-list-link {
+  color: #757575;
+}
+.contacts-list .contacts-list-link:hover {
+  color: #2196f3;
+}
+.contacts-list .contacts-list-link:focus {
+  color: #2196f3;
+}
+.portfolio-navigation .portfolio-navigation-menu {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.portfolio-navigation .portfolio-navigation-menu:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-navigation .portfolio-navigation-menu:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.logo-list .logo-link {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.logo-list .logo-link:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.logo-list .logo-link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --secondary-white-color: #f5f4fa;
+  --main-black-color: #000000;
+  --footer-links-color: rgba (255, 255, 255, 0.6);
+}
